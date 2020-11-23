@@ -1,0 +1,239 @@
+/*Comienzo de menu*/
+*
+{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.contenedor
+{
+    width: 95%;
+    max-width: 1000px;
+    margin: auto;
+}
+.contenedor p
+{
+    margin-bottom: 40px;
+}
+header nav 
+{
+    background: #87AEF0;
+    margin-bottom: 10px;
+    transition:all ease .5s;
+    -webkit-transition:all ease .5s;
+    -o-transition:all ease .5s;
+}
+header nav ul 
+{
+    list-style: none;
+    overflow: hidden;
+}
+header nav ul li 
+{
+    float: left;
+}
+header nav ul li a{
+    display: block;
+    padding: 20px;
+    color:#1E1C53 ;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: 'Syne Mono', monospace;
+}
+header nav ul li a:hover
+{
+    background: #456db1 ;
+    border-radius: 20px;
+    transition: 1s;
+}
+.menu-fixed
+{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    left: 0;
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, .5);
+}
+.menu-fixed u li a
+{
+    padding: 15px 20px;
+}
+.uno 
+{
+    height: 70px;
+    width: 100px;
+    position: relative;
+    right: 0px;
+}
+/*fondo*/
+body 
+{
+    background: url(../img/Fon2.jpg);
+    background-attachment: fixed;
+    
+}
+/* termino de fondo*/
+h1
+{
+    color: #1E1C53;
+    font-family: 'Syne Mono', monospace;
+    font-size: 60px;
+    text-transform: capitalize;
+    text-align: center;
+}
+/*imagenes*/ 
+.huawei 
+{
+    max-width: 100%;
+    border-radius: 20px;
+}
+/*caja de caracteriticas*/
+.caja
+{
+    border:2px solid #999;
+    box-sizing: border-box;
+    color:#1E1C53;
+    font-family: 'Syne Mono', monospace;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: capitalize;
+    display: inline-block;
+    margin: 0.5%;
+    padding: 1em;
+    vertical-align: top;
+    width: 31.9%;
+    background: cornflowerblue;
+    border-radius: 10px;
+}
+p
+{
+    font-size: 20px;
+    text-decoration: underline;
+}
+*,*:after, *:before
+{
+margin: 0;
+padding: 0;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+#contenedor_carga
+{
+    background-color: rgba(250,240, 245, 0.9);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    z-index: 10000;
+}
+#carga
+{
+    border: 15px solid #ccc;
+    border-top-color: #2775db;
+    border-top-style: groover;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    -webkit-animation: gira 1.5s linear infinite;
+    -o-animation: gira 1.5s linear infinite ;
+    animation: gira 1.5s linear infinite;
+}
+@keyframes gira {
+    from{ transform: rotate(0deg);}
+    to{ transform: rotate(360deg);}
+}
+.red{
+	position: fixed;
+	top: 250px;
+	z-index: 100;
+	left: 0;
+}
+#facebook a{
+	background: #3b5998;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+	width: 55px;
+	transition: all .4s ease;
+}
+#facebook a:hover{
+	background: #000;
+	padding: 10px 50px;
+}
+#youtube a{
+	background: #bb0000;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+	width: 55px;
+	transition: all .4s ease;
+}
+#youtube a:hover{
+	background: #000;
+	padding: 10px 50px;
+}
+#twitter a{
+	background: #55acee;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+	width: 55px;
+	transition: all .4s ease;
+}
+#twitter a:hover{
+	background: #000;
+	padding: 10px 50px;
+}
+#correo a{
+	background: #e95950;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+	width: 55px;
+	transition: all .4s ease;
+}
+#correo a:hover{
+	background: #000;
+	padding: 10px 50px;
+}
+.boton
+  {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #1E1C53;
+    background-color:cornflowerblue;
+    border-radius: 6px;
+    border: 2px solid cornflowerblue;
+    font-family: 'Syne Mono', monospace;
+  }
+  .boton:hover
+  {
+    color: aquamarine;
+    background-color: rgb(30, 42, 82);
+    transition: 1s;
+    opacity: 15;
+  }
+  .fas
+  {
+    font-size: 40px;
+    color: cornflowerblue;
+    position: relative;
+    
+  }
+ 

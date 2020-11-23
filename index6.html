@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport"content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="jquery/js.js"></script>
+    <link  rel="icon"   href="img/TecnoPostal..png" type="image/png" />
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/estilo6.css">
+  </head>
+  <body>
+    <div id="contenedor_carga">
+      <div id="carga"></div>
+  </div>
+    <form action="" class="formulario">
+      <a href="index.html"><img src="img/TecnoPostal..png" class="imgLogo" /></a>
+
+      <h1 class="formulario__titulo">Tecnopostal</h1>
+      <h3 class="formulario__subtitulo">Registro de compra</h3>
+      <p class="formulario__parrafo">
+        Llene el formulario para registrar el pedido.
+      </p>
+
+      <label for="cliente" class="formulario__label">Indique el nombre de la personade encargo</label>
+      <input
+        id="cliente"
+        type="text"
+        class="formulario__input"
+        placeholder="Indica cuál es tu nombre completo"
+      />
+
+      <label for="fecha" class="formulario__label"
+        >Indica la fecha de entrega</label
+      >
+      <input
+        id="fecha"
+        type="date"
+        class="formulario__input"
+        pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}"
+      />
+
+      <label for="hora" class="formulario__label"
+        >Indica la hora de entrega de producto</label
+      >
+      <input id="hora" type="time" class="formulario__input" />
+
+      <label for="empleado" class="formulario__label"
+        >Indique modelo del producto(Telefonia/Computo)</label
+      >
+      <select id="empleado" name="listaempleados" class="formulario__input">
+        <option>=Telefonia=</option>
+        <option>Huawei P40</option>
+        <option>Huawei Nova5</option>
+        <option>Huawei Nova3</option>
+        <option>Samsung M21</option>
+        <option>Samsung M30</option>
+        <option>Samsung S20</option>
+        <option>Redmi 7</option>
+        <option>Redmi Note 9</option>
+        <option>Redmi Note 8</option>
+        <option>Moto G8 Plus</option>
+        <option>Moto G7 Plus</option>
+        <option>Moto G 5g Plus</option>
+        <option>Iphone 11</option>
+        <option>Iphone 9 Plus</option>
+        <option>Iphone Xs</option>
+        <option>1C</option>
+        <option>3X</option>
+        <option>IB</option>
+        <option>=Computo=</option>
+        <option>Alienware</option>
+        <option>Dell Latitude E6400</option>
+        <option>Dell Inspiron</option>
+        <option>HP Pavilion - 15-Cw1005la</option>
+        <option>HP EliteBook 8460P</option>
+        <option>Hp Probook 6475b</option>
+        <option>Lenovo Thinkpad L450a</option>
+        <option>Ideapad 100-14iby</option>
+        <option>Lenovo Legio Y560</option>
+        <option>Sony Vaio SVE14115FLW</option>
+        <option>Vaio Sony Pcg-31311u</option>
+        <option>Vaio Sony Sx14</option>
+        <option>Asus N551</option>
+        <option>Asus N751</option>
+        <option>Asus g531gt</option>
+        <option>Macbook Air</option>
+        <option>Macbook Pro</option>
+        <option>Silver Macbook Pro</option>
+      </select>
+
+      <label for="servicio" class="formulario__label"
+        >Forma de pago</label
+      >
+      <select id="servicio" name="listaservicios" class="formulario__input">
+        <option>Tarjeta de Credito(12 meses sin intereses)</option>
+        <option>Efectivo</option>
+        <option>Tarjeta de debito</option>
+      </select>
+
+      <div id="respuesta"></div>
+      
+    
+      <button id="submit" class="formulario__submit">Enviar a WhatsApp</button>
+      <br><br>
+    <a class="seis" href="index.html">←-- Regresar a Pagina principal</a>
+    </form>
+    <script src="jquery/main.js"></script>
+    <script src="jquery/main2.js"></script>
+  </body>
+</html>
